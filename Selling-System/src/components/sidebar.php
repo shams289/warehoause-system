@@ -62,6 +62,20 @@
                     <li><a href="sales.php">لیستی فرۆشتنەکان</a></li>
                 </ul>
             </li>
+            
+            <!-- Expenses -->
+            <li class="menu-item">
+                <a href="#expensesSubmenu">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>مەسروفات</span>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                </a>
+                <ul class="submenu" id="expensesSubmenu">
+                    <li><a href="employeePayment.php">پارەدان بە کارمەند</a></li>
+                    <li><a href="shippingCost.php">کرێی بار</a></li>
+                    <li><a href="moneyWithdrawal.php">دەرکردنی پارە</a></li>
+                </ul>
+            </li>
 
             <!-- Reports -->
             <li class="menu-item">
