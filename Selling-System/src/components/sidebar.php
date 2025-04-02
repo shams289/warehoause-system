@@ -7,23 +7,19 @@
     <div class="sidebar-wrapper">
         <!-- Sidebar Header -->
         <div class="sidebar-header">
-            <div class="sidebar-logo">
-                <i class="fas fa-box"></i>
-                <span>ASHKAN</span>
-            </div>
+                       
+        <a href="index.php" class="">
+                    <div class="icon-cont">
+                        <img src="assets/icons/Dashboard.svg" alt="" class="dash-icon">
+                    </div>
+                    <span>داشبۆرد</span>
+                </a>
         </div>
 
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
             <!-- Dashboard -->
-            <li class="menu-item">
-                <a href="index.php" class="item-link active">
-                    <div class="icon-cont">
-                        <img src="assets/icons/Dashboard.svg" alt="">
-                    </div>
-                    <span>داشبۆرد</span>
-                </a>
-            </li>
+           
 
             <!-- Products -->
             <li class="menu-item">
