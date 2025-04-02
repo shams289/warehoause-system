@@ -1,0 +1,223 @@
+/* Employee Payment Page Styles */
+
+/* Form Styles */
+.form-label {
+    font-weight: 500;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Table Styles */
+.table-container {
+    position: relative;
+}
+
+.custom-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+}
+
+.custom-table thead th {
+    font-weight: 600;
+    color: #333;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+    padding: 12px 15px;
+}
+
+.custom-table tbody tr {
+    transition: all 0.2s ease;
+}
+
+.custom-table tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.custom-table td {
+    padding: 12px 15px;
+    vertical-align: middle;
+    border-top: 1px solid #f0f0f0;
+}
+
+/* Table Controls */
+.table-controls {
+    margin-bottom: 1.5rem;
+}
+
+.records-per-page {
+    display: flex;
+    align-items: center;
+}
+
+.custom-select-wrapper {
+    width: 80px;
+}
+
+.search-container .input-group {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Search input RTL fix */
+.rounded-pill-start {
+    border-top-right-radius: 50rem !important;
+    border-bottom-right-radius: 50rem !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.rounded-pill-end {
+    border-top-left-radius: 50rem !important;
+    border-bottom-left-radius: 50rem !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+/* Table Pagination */
+.table-pagination {
+    margin-top: 1.5rem;
+}
+
+.pagination-info {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.pagination-controls .btn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.pagination-numbers .btn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.pagination-numbers .btn.active {
+    box-shadow: none;
+}
+
+/* Button Styles */
+.action-buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.action-buttons .btn {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.action-buttons .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-btn:hover {
+    color: #fff;
+    background-color: #0d6efd;
+}
+
+.delete-btn:hover {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.refresh-btn {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.refresh-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Badge Styles */
+.badge {
+    font-weight: 500;
+    padding: 0.5em 0.75em;
+}
+
+/* Instruction Styles */
+.instruction-item {
+    padding-bottom: 0.75rem;
+}
+
+.instruction-item:not(:last-child) {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.75rem;
+}
+
+.instruction-icon {
+    min-width: 24px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .action-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .pagination-controls {
+        justify-content: center !important;
+    }
+    
+    .pagination-info {
+        text-align: center;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+} 
