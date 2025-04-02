@@ -2,6 +2,7 @@
 // You can add PHP logic here if needed
 ?>
 <!-- Sidebar -->
+<link rel="stylesheet" href="css/shared/sidebar.css">
 <div class="sidebar">
     <div class="sidebar-wrapper">
         <!-- Sidebar Header -->
