@@ -21,7 +21,7 @@
 </head>
 <body>
     <!-- Main Content Wrapper -->
-    <div id="content">
+    <div id="content" style="margin-top: 100px;">
         <!-- Navbar container - will be populated by JavaScript -->
         <div id="navbar-container"></div>
 

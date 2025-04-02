@@ -17,17 +17,20 @@
         <ul class="sidebar-menu">
             <!-- Dashboard -->
             <li class="menu-item">
-                <a href="index.php">
-                    <i class="fas fa-home"></i>
+                <a href="index.php" class="item-link active">
+                    <div class="icon-cont">
+                        <img src="assets/icons/Dashboard.svg" alt="">
+                    </div>
                     <span>داشبۆرد</span>
                 </a>
             </li>
 
             <!-- Products -->
             <li class="menu-item">
-                <a href="#productsSubmenu">
-                    <i class="fas fa-box"></i>
-                    <span>کاڵاکان</span>
+                <a href="#productsSubmenu" class="item-link">
+                <div class="icon-cont">
+                        <img src="assets/icons/product.svg" alt="">
+                    </div>                    <span>کاڵاکان</span>
                     <i class="fas fa-chevron-down dropdown-icon"></i>
                 </a>
                 <ul class="submenu" id="productsSubmenu">
@@ -39,9 +42,11 @@
 
             <!-- Staff -->
             <li class="menu-item">
-                <a href="#staffSubmenu">
-                    <i class="fas fa-users"></i>
-                    <span>هاوکارەکان</span>
+                <a href="#staffSubmenu" class="item-link">
+                <div class="icon-cont">
+                        <img src="assets/icons/accounts.svg" alt="">
+                    </div> 
+                    <span>هەژمارەکان</span>
                     <i class="fas fa-chevron-down dropdown-icon"></i>
                 </a>
                 <ul class="submenu" id="staffSubmenu">
@@ -52,9 +57,10 @@
 
             <!-- Sales -->
             <li class="menu-item">
-                <a href="#salesSubmenu">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span>فرۆشتنەکان</span>
+                <a href="#salesSubmenu" class="item-link">
+                <div class="icon-cont">
+                        <img src="assets/icons/owes.svg" alt="">
+                    </div>                    <span>فرۆشتنەکان</span>
                     <i class="fas fa-chevron-down dropdown-icon"></i>
                 </a>
                 <ul class="submenu" id="salesSubmenu">
@@ -65,9 +71,10 @@
             
             <!-- Expenses -->
             <li class="menu-item">
-                <a href="#expensesSubmenu">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <span>مەسروفات</span>
+                <a href="#expensesSubmenu" class="item-link">
+                <div class="icon-cont">
+                        <img src="assets/icons/spending.svg" alt="">
+                    </div>                    <span>مەسروفات</span>
                     <i class="fas fa-chevron-down dropdown-icon"></i>
                 </a>
                 <ul class="submenu" id="expensesSubmenu">
@@ -79,17 +86,19 @@
 
             <!-- Reports -->
             <li class="menu-item">
-                <a href="reports.php">
-                    <i class="fas fa-chart-bar"></i>
-                    <span>ڕاپۆرتەکان</span>
+                <a href="reports.php" class="item-link">
+                <div class="icon-cont">
+                        <img src="assets/icons/report.svg" alt="">
+                    </div>                    <span>ڕاپۆرتەکان</span>
                 </a>
             </li>
 
             <!-- Settings -->
             <li class="menu-item">
-                <a href="settings.php">
-                    <i class="fas fa-cog"></i>
-                    <span>ڕێکخستنەکان</span>
+                <a href="settings.php" class="item-link">
+                <div class="icon-cont">
+                        <img src="assets/icons/balance.svg" alt="">
+                    </div>                    <span>باڵانسەکان</span>
                 </a>
             </li>
         </ul>
